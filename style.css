@@ -1,0 +1,43 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #262335;
+   color: aliceblue;
+   height: 100vh;
+}
+
+#first-page {
+   display: flex;
+   flex-direction: column;
+   padding: 30px 20px;
+   height: 100%;
+   text-align: center;
+   justify-content: space-around;
+}
+
+#second-page {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+
+#word {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#textArea {
+   padding: 10px;
+   background-color: #262335;
+   border: none;
+   border: 3px solid aliceblue;
+   border-radius: 5px;
+   height: 70% !important;
+   color: aliceblue;
+}
